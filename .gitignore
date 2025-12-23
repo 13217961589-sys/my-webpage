@@ -1,0 +1,24 @@
+# 依赖目录
+node_modules/
+
+# 构建输出目录
+dist/
+dist/*
+!dist/_redirects  # 保留这个文件（如果需要在仓库中）
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
