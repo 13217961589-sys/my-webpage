@@ -1,0 +1,12 @@
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig({
+  base: '/Merry-Christmas/',
+  plugins: [react()],
+  assetsInclude: ['**/*.JPG', '**/*.JPEG', '**/*.PNG'],
+  server: {
+    host: true,
+    port: 4173,
+  },
+});
